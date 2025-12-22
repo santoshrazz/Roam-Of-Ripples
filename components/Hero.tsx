@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const slides = [
@@ -71,14 +72,16 @@ export function Hero() {
               >
                 {slide.title}
               </motion.h1>
-              <motion.button
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.7 }}
-                className="px-8 py-3 bg-teal-600 text-white rounded-full hover:bg-teal-700 transition-all font-medium text-lg hover:scale-105"
-              >
-                Book Now
-              </motion.button>
+              <Link href={"/contact"}>
+                <motion.button
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.7 }}
+                  className="px-8 py-3 bg-teal-600 text-white rounded-full hover:bg-teal-700 transition-all font-medium text-lg hover:scale-105"
+                >
+                  Book Now
+                </motion.button>
+              </Link>
             </div>
           </div>
         </motion.div>

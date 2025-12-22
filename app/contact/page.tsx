@@ -106,7 +106,7 @@ export default function ContactPage() {
       </div>
 
       {/* Contact Content */}
-      <div className="max-w-7xl mx-auto px-4 -mt-10 pb-20">
+      <div className="max-w-7xl mx-auto px-4 -mt-10  relative z-30 pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Contact Info Cards */}
           <motion.div
@@ -132,12 +132,14 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Call Us</h3>
-              <p className="text-gray-600 mb-2">Monday to Friday, 9am to 6pm</p>
+              <p className="text-gray-600 mb-2">
+                Monday to Sunday, 12am to 12pm
+              </p>
               <a
                 href="tel:+1234567890"
                 className="text-teal-600 font-medium hover:text-teal-700"
               >
-                +1 234 567 890
+                +91 8750733112
               </a>
             </div>
 
@@ -162,10 +164,10 @@ export default function ContactPage() {
                 We'll respond within 24 hours
               </p>
               <a
-                href="mailto:info@traveltours.com"
+                href="mailto:roamofripples.com"
                 className="text-teal-600 font-medium hover:text-teal-700"
               >
-                info@traveltours.com
+                roamofripples.com
               </a>
             </div>
 
@@ -195,7 +197,7 @@ export default function ContactPage() {
                 Visit Office
               </h3>
               <p className="text-gray-600">
-                123 Travel Street, Tourism City, TC 12345
+                123 Travel Street, Tourism Bhagalpur
               </p>
             </div>
 

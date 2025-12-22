@@ -1,6 +1,7 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import { Facebook, Instagram, Twitter } from "lucide-react";
 
 export function Footer() {
   return (
@@ -8,13 +9,18 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
             <div className="text-2xl font-bold mb-4">
               <span className="text-teal-400">Travel</span>
               <span className="text-white">Tours</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Your trusted travel partner for unforgettable experiences around the world.
+              Your trusted travel partner for unforgettable experiences around
+              the world.
             </p>
           </motion.div>
 
@@ -91,9 +97,9 @@ export function Footer() {
           >
             <h4 className="font-bold mb-4">Contact Us</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Email: info@traveltours.com</li>
-              <li>Phone: +1 234 567 8900</li>
-              <li>Address: 123 Travel Street, City</li>
+              <li>Email: roamripples@gmail.com</li>
+              <li>Phone: +91 8750733112</li>
+              <li>Address: 123 Travel Street, Bhagalpur</li>
             </ul>
 
             <div className="flex gap-4 mt-6">
@@ -101,28 +107,30 @@ export function Footer() {
                 href="#"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors"
               >
-                <span className="sr-only">Facebook</span>📘
+                <span className="sr-only">Facebook</span>
+                <Facebook />
               </a>
               <a
                 href="#"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors"
               >
-                <span className="sr-only">Instagram</span>📷
+                <span className="sr-only">Instagram</span> <Instagram />
               </a>
               <a
                 href="#"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors"
               >
-                <span className="sr-only">Twitter</span>🐦
+                <span className="sr-only">Twitter</span>
+                <Twitter />
               </a>
             </div>
           </motion.div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 TravelTours. All rights reserved.</p>
+          <p>&copy; 2025 RoamRipples. All rights reserved.</p>
         </div>
       </div>
     </footer>
-  )
+  );
 }

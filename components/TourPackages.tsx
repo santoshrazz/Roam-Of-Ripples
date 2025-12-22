@@ -70,7 +70,7 @@ export function TourPackages() {
                 <div className="flex items-center justify-between">
                   <div>
                     <span className="text-2xl font-bold text-teal-600">
-                      {pkg.price}
+                      {pkg.price}z{" "}
                     </span>
                     <span className="text-gray-600 text-sm"> / Per person</span>
                   </div>

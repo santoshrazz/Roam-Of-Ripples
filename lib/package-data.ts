@@ -1,27 +1,27 @@
 export interface Package {
-  id: string
-  title: string
-  location: string
-  days: number
-  nights: number
-  rating: number
-  price: string
-  image: string
-  description: string
-  highlights: string[]
+  id: string;
+  title: string;
+  location: string;
+  days: number;
+  nights: number;
+  rating: number;
+  price: string;
+  image: string;
+  description: string;
+  highlights: string[];
   itinerary: {
-    day: number
-    title: string
-    description: string
-  }[]
-  inclusions: string[]
-  exclusions: string[]
+    day: number;
+    title: string;
+    description: string;
+  }[];
+  inclusions: string[];
+  exclusions: string[];
   reviews: {
-    name: string
-    rating: number
-    comment: string
-    date: string
-  }[]
+    name: string;
+    rating: number;
+    comment: string;
+    date: string;
+  }[];
 }
 
 export const packages: Package[] = [
@@ -98,7 +98,8 @@ export const packages: Package[] = [
       {
         name: "Michael Chen",
         rating: 4,
-        comment: "Great package with excellent value. The tour guide was very knowledgeable and friendly.",
+        comment:
+          "Great package with excellent value. The tour guide was very knowledgeable and friendly.",
         date: "2024-10-28",
       },
     ],
@@ -156,7 +157,8 @@ export const packages: Package[] = [
       {
         day: 6,
         title: "Departure",
-        description: "Breakfast at hotel. Free time until transfer to airport for departure flight.",
+        description:
+          "Breakfast at hotel. Free time until transfer to airport for departure flight.",
       },
     ],
     inclusions: [
@@ -180,13 +182,15 @@ export const packages: Package[] = [
       {
         name: "Emma Wilson",
         rating: 5,
-        comment: "Azerbaijan exceeded all expectations! The history, culture, and hospitality were incredible.",
+        comment:
+          "Azerbaijan exceeded all expectations! The history, culture, and hospitality were incredible.",
         date: "2024-11-20",
       },
       {
         name: "David Brown",
         rating: 5,
-        comment: "Perfect itinerary covering both ancient and modern attractions. Gobustan was fascinating!",
+        comment:
+          "Perfect itinerary covering both ancient and modern attractions. Gobustan was fascinating!",
         date: "2024-11-05",
       },
     ],
@@ -215,7 +219,7 @@ export const packages: Package[] = [
         day: 1,
         title: "Delhi Arrival & Sightseeing",
         description:
-          "Arrive in Delhi. Visit India Gate, Parliament House, Qutub Minar, and Lotus Temple. Evening at Connaught Place for shopping and dinner.",
+          "Arrivez in Delhi. Visit India Gate, Parliament House, Qutub Minar, and Lotus Temple. Evening at Connaught Place for shopping and dinner.",
       },
       {
         day: 2,
@@ -263,13 +267,15 @@ export const packages: Package[] = [
       {
         name: "James Anderson",
         rating: 5,
-        comment: "The Golden Triangle was breathtaking! Taj Mahal at sunrise was a dream come true.",
+        comment:
+          "The Golden Triangle was breathtaking! Taj Mahal at sunrise was a dream come true.",
         date: "2024-11-18",
       },
       {
         name: "Lisa Martinez",
         rating: 5,
-        comment: "Excellent organization and knowledgeable guides. Jaipur's palaces were stunning!",
+        comment:
+          "Excellent organization and knowledgeable guides. Jaipur's palaces were stunning!",
         date: "2024-11-01",
       },
     ],
@@ -327,7 +333,8 @@ export const packages: Package[] = [
       {
         day: 6,
         title: "Departure",
-        description: "Leisure morning. Check out and airport transfer for your departure flight.",
+        description:
+          "Leisure morning. Check out and airport transfer for your departure flight.",
       },
     ],
     inclusions: [
@@ -351,13 +358,15 @@ export const packages: Package[] = [
       {
         name: "Robert Taylor",
         rating: 4,
-        comment: "Great package covering all major attractions. Desert safari was thrilling!",
+        comment:
+          "Great package covering all major attractions. Desert safari was thrilling!",
         date: "2024-11-12",
       },
       {
         name: "Maria Garcia",
         rating: 4,
-        comment: "Well organized tour with professional guides. Dubai exceeded our expectations.",
+        comment:
+          "Well organized tour with professional guides. Dubai exceeded our expectations.",
         date: "2024-10-25",
       },
     ],
@@ -409,7 +418,8 @@ export const packages: Package[] = [
       {
         day: 5,
         title: "Departure",
-        description: "Final breakfast. Last-minute shopping or relaxation. Airport transfer for departure.",
+        description:
+          "Final breakfast. Last-minute shopping or relaxation. Airport transfer for departure.",
       },
     ],
     inclusions: [
@@ -433,13 +443,15 @@ export const packages: Package[] = [
       {
         name: "Sophie Anderson",
         rating: 5,
-        comment: "Perfect mix of activities! Miracle Garden was absolutely stunning. Great value package.",
+        comment:
+          "Perfect mix of activities! Miracle Garden was absolutely stunning. Great value package.",
         date: "2024-11-22",
       },
       {
         name: "Tom Wilson",
         rating: 5,
-        comment: "Enjoyed every moment. The yacht cruise was luxurious and Global Village was fascinating.",
+        comment:
+          "Enjoyed every moment. The yacht cruise was luxurious and Global Village was fascinating.",
         date: "2024-11-08",
       },
     ],
@@ -503,7 +515,8 @@ export const packages: Package[] = [
       {
         day: 7,
         title: "Departure",
-        description: "Breakfast and check out. Transfer to airport for departure flight.",
+        description:
+          "Breakfast and check out. Transfer to airport for departure flight.",
       },
     ],
     inclusions: [
@@ -528,23 +541,25 @@ export const packages: Package[] = [
       {
         name: "Jennifer Lee",
         rating: 5,
-        comment: "Bangkok was incredible! The temples were breathtaking and the cooking class was so much fun.",
+        comment:
+          "Bangkok was incredible! The temples were breathtaking and the cooking class was so much fun.",
         date: "2024-11-17",
       },
       {
         name: "Mark Thompson",
         rating: 5,
-        comment: "Excellent tour with perfect balance of culture, food, and relaxation. Highly recommended!",
+        comment:
+          "Excellent tour with perfect balance of culture, food, and relaxation. Highly recommended!",
         date: "2024-10-30",
       },
     ],
   },
-]
+];
 
 export function getPackageById(id: string): Package | undefined {
-  return packages.find((pkg) => pkg.id === id)
+  return packages.find((pkg) => pkg.id === id);
 }
 
 export function getAllPackages(): Package[] {
-  return packages
+  return packages;
 }

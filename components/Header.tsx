@@ -49,8 +49,8 @@ export function Header() {
             onClick={() => router.push("/")}
           >
             <div className="text-2xl md:text-3xl font-bold">
-              <span className="text-teal-600">Travel</span>
-              <span className="text-gray-900">Tours</span>
+              <span className="text-teal-600">Roam</span>
+              <span className="text-gray-900">Ripples</span>
             </div>
           </motion.div>
 
