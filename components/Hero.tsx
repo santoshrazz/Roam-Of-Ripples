@@ -13,12 +13,12 @@ const slides = [
   {
     title: "Amazing Singapore",
     subtitle: "Explore Garden City",
-    image: "/singapore-home.jpg",
+    image: "/thailand-home.jpg",
   },
   {
     title: "Thailand Fun Fiesta",
     subtitle: "Discover Thailand",
-    image: "/thailand-home.jpg",
+    image: "/Thailand-Main.jpg",
   },
 ];
 
