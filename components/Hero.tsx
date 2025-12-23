@@ -11,14 +11,14 @@ const slides = [
     image: "/dubai-skyline-with-burj-khalifa-at-sunset.jpg",
   },
   {
-    title: "Baku Adventure",
-    subtitle: "Explore Azerbaijan",
-    image: "/baku-city-with-flame-towers.jpg",
+    title: "Amazing Singapore",
+    subtitle: "Explore Garden City",
+    image: "/singapore-home.jpg",
   },
   {
-    title: "Golden Triangle",
-    subtitle: "Discover India",
-    image: "/taj-mahal-india-golden-hour.jpg",
+    title: "Thailand Fun Fiesta",
+    subtitle: "Discover Thailand",
+    image: "/thailand-home.jpg",
   },
 ];
 

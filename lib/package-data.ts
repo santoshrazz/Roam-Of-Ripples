@@ -32,7 +32,7 @@ export const packages: Package[] = [
     days: 4,
     nights: 3,
     rating: 4,
-    price: "$85",
+    price: "$225",
     image: "/dubai-marina-yacht-club.jpg",
     description:
       "Experience the luxurious Dubai Marina with stunning waterfront views, world-class dining, and unforgettable yacht experiences. This package offers the perfect blend of relaxation and adventure in one of Dubai's most prestigious neighborhoods.",
@@ -47,7 +47,7 @@ export const packages: Package[] = [
     itinerary: [
       {
         day: 1,
-        title: "Arrival & Marina Welcome",
+        title: "Arrival + Marina Cruise With Dinner",
         description:
           "Arrive at Dubai International Airport where our representative will greet you. Transfer to your hotel in Dubai Marina. Evening at leisure to explore the marina walk and enjoy dinner at one of the waterfront restaurants.",
       },
@@ -59,33 +59,33 @@ export const packages: Package[] = [
       },
       {
         day: 3,
-        title: "Yacht Cruise & Beach Day",
+        title: "Desert Safari with BBQ Dinner ",
         description:
-          "Morning luxury yacht cruise around Dubai Marina and Palm Jumeirah. Afternoon relaxation at Marina Beach Club. Evening traditional dhow cruise with dinner and entertainment.",
+          "Get ready for thrills of dune bashing in red sands by 4X4 vehicles. Enjoy your dinner at desert safari camp with Tanura Dance, Belly Dance, Fire Show. ",
       },
       {
         day: 4,
         title: "Departure",
         description:
-          "Enjoy a leisurely breakfast at the hotel. Last-minute shopping or relaxation at the pool. Check out and transfer to the airport for your departure flight.",
+          "Enjoy a leisurely breakfast at the hotel. Last-minute shopping or relaxation at the pool by own. Check out and transfer to the airport for your departure flight.",
       },
     ],
     inclusions: [
-      "3 nights accommodation in 4-star hotel",
-      "Daily breakfast",
-      "Airport transfers",
-      "All tours and entrance fees as per itinerary",
-      "Professional English-speaking guide",
-      "Dhow cruise dinner",
-      "Yacht cruise experience",
+      "03 nights accommodation on double occupancy.",
+      "03 breakfast at hotel",
+      "Dubai airport to Dubai hotel on Private Basis",
+      "Evening Dhow Cruise Marina with dinner.",
+      "HD Dubai City tour + Burj Khalifa 125th floor NPT (1 way Pvt).",
+      "Desert Safari with BBQ dinner.",
+      "All sightseeing on SIC basis",
+      "All Items of Personal Nature.",
     ],
     exclusions: [
-      "International flights",
-      "Travel insurance",
-      "Personal expenses",
-      "Lunches and dinners (except mentioned)",
-      "Tips and gratuities",
-      "Any services not mentioned in inclusions",
+      "Meals Not Mentioned in The Itinerary.",
+      "Anything Not Mentioned in The Inclusions.",
+      "Porterage At Hotels and Airports, Tips, Insurance, Laundry, Liquors, Wine, Etc.",
+      "All Items of Personal Nature.",
+      "Visa.",
     ],
     reviews: [
       {
@@ -101,182 +101,6 @@ export const packages: Package[] = [
         comment:
           "Great package with excellent value. The tour guide was very knowledgeable and friendly.",
         date: "2024-10-28",
-      },
-    ],
-  },
-  {
-    id: "amazing-azerbaijan",
-    title: "Amazing Azerbaijan",
-    location: "Baku",
-    days: 6,
-    nights: 5,
-    rating: 5,
-    price: "$350",
-    image: "/baku-old-city-panorama.jpg",
-    description:
-      "Discover the perfect blend of ancient history and modern architecture in Azerbaijan. Explore Baku's Old City, visit fire temples, and experience the unique culture of this fascinating Caucasus nation.",
-    highlights: [
-      "Old City (Icherisheher) UNESCO Site",
-      "Flame Towers Night View",
-      "Gobustan Rock Art & Mud Volcanoes",
-      "Fire Temple (Ateshgah)",
-      "Highland Park & Funicular Ride",
-      "Caspian Sea Boulevard",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Arrival in Baku",
-        description:
-          "Arrive at Heydar Aliyev International Airport. Transfer to hotel. Evening walk along Baku Boulevard and dinner at local restaurant.",
-      },
-      {
-        day: 2,
-        title: "Old City Exploration",
-        description:
-          "Full day tour of UNESCO-listed Old City including Maiden Tower, Palace of Shirvanshahs, and narrow cobblestone streets. Visit local carpet workshops and traditional tea houses.",
-      },
-      {
-        day: 3,
-        title: "Gobustan & Mud Volcanoes",
-        description:
-          "Day trip to Gobustan National Park to see ancient rock carvings dating back 40,000 years. Visit active mud volcanoes and learn about Azerbaijan's geological wonders.",
-      },
-      {
-        day: 4,
-        title: "Fire Temple & Modern Baku",
-        description:
-          "Morning visit to Ateshgah Fire Temple and burning mountain Yanar Dag. Afternoon exploring modern Baku including Heydar Aliyev Center and Flame Towers.",
-      },
-      {
-        day: 5,
-        title: "Highland Park & Shopping",
-        description:
-          "Funicular ride to Highland Park for panoramic city views. Free time for shopping at local markets and modern malls. Farewell dinner with traditional Azerbaijani music.",
-      },
-      {
-        day: 6,
-        title: "Departure",
-        description:
-          "Breakfast at hotel. Free time until transfer to airport for departure flight.",
-      },
-    ],
-    inclusions: [
-      "5 nights accommodation in 4-star hotel",
-      "Daily breakfast and 3 dinners",
-      "All transfers and transportation",
-      "Professional guide throughout",
-      "All entrance fees",
-      "Gobustan tour with mud volcanoes",
-      "Funicular ride tickets",
-    ],
-    exclusions: [
-      "International flights",
-      "Azerbaijan e-visa fee",
-      "Travel insurance",
-      "Lunches and some dinners",
-      "Personal expenses",
-      "Optional activities",
-    ],
-    reviews: [
-      {
-        name: "Emma Wilson",
-        rating: 5,
-        comment:
-          "Azerbaijan exceeded all expectations! The history, culture, and hospitality were incredible.",
-        date: "2024-11-20",
-      },
-      {
-        name: "David Brown",
-        rating: 5,
-        comment:
-          "Perfect itinerary covering both ancient and modern attractions. Gobustan was fascinating!",
-        date: "2024-11-05",
-      },
-    ],
-  },
-  {
-    id: "golden-triangle-india",
-    title: "Golden Triangle Tour",
-    location: "India",
-    days: 5,
-    nights: 4,
-    rating: 5,
-    price: "₹16,900",
-    image: "/taj-mahal-reflection.jpg",
-    description:
-      "Explore India's most iconic cities - Delhi, Agra, and Jaipur. Witness the magnificent Taj Mahal, explore historic forts and palaces, and immerse yourself in the rich cultural heritage of North India.",
-    highlights: [
-      "Taj Mahal Sunrise Visit",
-      "Agra Fort & Fatehpur Sikri",
-      "Amber Fort Elephant Ride",
-      "City Palace Jaipur",
-      "Jal Mahal Photo Stop",
-      "Traditional Rajasthani Dinner",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Delhi Arrival & Sightseeing",
-        description:
-          "Arrivez in Delhi. Visit India Gate, Parliament House, Qutub Minar, and Lotus Temple. Evening at Connaught Place for shopping and dinner.",
-      },
-      {
-        day: 2,
-        title: "Delhi to Agra",
-        description:
-          "Morning drive to Agra. Visit the magnificent Taj Mahal at sunset. Explore Agra Fort and local marble workshops. Overnight in Agra.",
-      },
-      {
-        day: 3,
-        title: "Agra to Jaipur via Fatehpur Sikri",
-        description:
-          "Early morning Taj Mahal sunrise view. Drive to Jaipur with stop at UNESCO site Fatehpur Sikri. Evening arrival in Pink City.",
-      },
-      {
-        day: 4,
-        title: "Jaipur City Tour",
-        description:
-          "Elephant ride at Amber Fort. Visit City Palace, Jantar Mantar observatory, and Hawa Mahal. Evening traditional Rajasthani dinner with cultural show.",
-      },
-      {
-        day: 5,
-        title: "Jaipur to Delhi Departure",
-        description:
-          "Morning visit to Jal Mahal for photos. Drive back to Delhi. Drop at airport or hotel as per your flight schedule.",
-      },
-    ],
-    inclusions: [
-      "4 nights accommodation in heritage hotels",
-      "Daily breakfast and 2 dinners",
-      "All transportation in AC vehicle",
-      "Professional tour guide",
-      "All monument entrance fees",
-      "Elephant ride at Amber Fort",
-      "Cultural show tickets",
-    ],
-    exclusions: [
-      "Domestic/International flights",
-      "Travel insurance",
-      "Camera fees at monuments",
-      "Lunches and some dinners",
-      "Personal expenses and tips",
-      "Optional activities",
-    ],
-    reviews: [
-      {
-        name: "James Anderson",
-        rating: 5,
-        comment:
-          "The Golden Triangle was breathtaking! Taj Mahal at sunrise was a dream come true.",
-        date: "2024-11-18",
-      },
-      {
-        name: "Lisa Martinez",
-        rating: 5,
-        comment:
-          "Excellent organization and knowledgeable guides. Jaipur's palaces were stunning!",
-        date: "2024-11-01",
       },
     ],
   },
@@ -371,6 +195,92 @@ export const packages: Package[] = [
       },
     ],
   },
+  {
+    id: "amazing-singapore",
+    title: "Lion City Adventure",
+    location: "Singapore",
+    days: 5,
+    nights: 4,
+    rating: 4,
+    price: "$420",
+    image: "/singapore-home.jpg",
+    description:
+      "Discover the perfect blend of futuristic architecture, lush greenery, cultural diversity, and world-class attractions with this exciting Singapore tour package.",
+    highlights: [
+      "Marina Bay Sands SkyPark",
+      "Gardens by the Bay",
+      "Sentosa Island Tour",
+      "Universal Studios Singapore",
+      "Merlion Park & City Tour",
+      "Singapore River Cruise",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Night City Tour",
+        description:
+          "Airport pick up and hotel check-in. Evening city tour covering Marina Bay Sands, Merlion Park, and a relaxing Singapore River Cruise.",
+      },
+      {
+        day: 2,
+        title: "Singapore City Highlights",
+        description:
+          "Guided city tour including Chinatown, Little India, Orchard Road, and Gardens by the Bay with Flower Dome and Cloud Forest.",
+      },
+      {
+        day: 3,
+        title: "Sentosa Island Adventure",
+        description:
+          "Visit Sentosa Island via cable car. Explore Madame Tussauds, SEA Aquarium, and enjoy leisure time at Siloso Beach.",
+      },
+      {
+        day: 4,
+        title: "Universal Studios Singapore",
+        description:
+          "Full day at Universal Studios Singapore featuring thrilling rides, shows, and themed attractions for all ages.",
+      },
+      {
+        day: 5,
+        title: "Departure",
+        description:
+          "Leisure morning. Hotel check-out and airport transfer for departure.",
+      },
+    ],
+    inclusions: [
+      "4 nights in 4-star hotel with breakfast",
+      "Airport transfers",
+      "Singapore city tour",
+      "Sentosa Island tour",
+      "Universal Studios tickets",
+      "Gardens by the Bay tickets",
+      "Professional tour guide",
+    ],
+    exclusions: [
+      "International flights",
+      "Travel insurance",
+      "Lunches and dinners",
+      "Optional tours and activities",
+      "Personal expenses",
+      "Tips for guide and driver",
+    ],
+    reviews: [
+      {
+        name: "Daniel Wong",
+        rating: 4,
+        comment:
+          "Excellent itinerary with a good mix of city sights and attractions. Universal Studios was the highlight!",
+        date: "2024-11-18",
+      },
+      {
+        name: "Emily Johnson",
+        rating: 4,
+        comment:
+          "Very smooth and well planned trip. Singapore is clean, modern, and beautiful.",
+        date: "2024-10-30",
+      },
+    ],
+  },
+
   {
     id: "dubai-delight",
     title: "Dubai Delight",

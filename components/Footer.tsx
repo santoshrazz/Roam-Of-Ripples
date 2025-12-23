@@ -15,8 +15,8 @@ export function Footer() {
             viewport={{ once: true }}
           >
             <div className="text-2xl font-bold mb-4">
-              <span className="text-teal-400">Travel</span>
-              <span className="text-white">Tours</span>
+              <span className="text-teal-400">Roam</span>
+              <span className="text-white">Ripples</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Your trusted travel partner for unforgettable experiences around

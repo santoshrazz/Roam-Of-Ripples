@@ -10,10 +10,10 @@ const destinations = [
     image: "/dubai-marina-skyline.jpg",
   },
   {
-    name: "Baku",
-    country: "Azerbaijan",
+    name: "Lion City Adventure",
+    country: "Singapore",
     tours: 3,
-    image: "/baku-flame-towers-night.jpg",
+    image: "/singapore-home.jpg",
   },
   {
     name: "Abu Dhabi",

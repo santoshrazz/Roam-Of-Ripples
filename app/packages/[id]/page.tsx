@@ -400,7 +400,7 @@ export default function PackageDetailsPage({
                     +91 8750733112
                   </a>
                   <a
-                    href="mailto:perlsofasia@gmail.com"
+                    href="mailto:roamripples@gmail.com"
                     className="flex items-center gap-2 text-gray-600 hover:text-teal-600 transition-colors"
                   >
                     <svg
@@ -416,7 +416,7 @@ export default function PackageDetailsPage({
                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                       />
                     </svg>
-                    perlsofasia@gmail.com
+                    roamripples@gmail.com
                   </a>
                 </div>
               </div>
