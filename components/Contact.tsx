@@ -131,9 +131,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Call Us</h3>
-              <p className="text-gray-600 mb-2">
-                Monday to Sunday, 12am to 12pm
-              </p>
+              <p className="text-gray-600 mb-2">Monday to Sunday, 24 X 7</p>
               <a
                 href="tel:+1234567890"
                 className="text-teal-600 font-medium hover:text-teal-700"
@@ -163,10 +161,10 @@ export default function ContactPage() {
                 We'll respond within 24 hours
               </p>
               <a
-                href="mailto:roamofripples.com"
+                href="mailto:roamripples.com"
                 className="text-teal-600 font-medium hover:text-teal-700"
               >
-                roamofripples.com
+                roamripples.com
               </a>
             </div>
 
@@ -412,8 +410,8 @@ export default function ContactPage() {
                     isSubmitting
                       ? "bg-gray-400 cursor-not-allowed"
                       : submitStatus === "success"
-                      ? "bg-green-600"
-                      : "bg-teal-600 hover:bg-teal-700"
+                        ? "bg-green-600"
+                        : "bg-teal-600 hover:bg-teal-700"
                   }`}
                 >
                   {isSubmitting ? (
