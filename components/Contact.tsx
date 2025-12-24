@@ -5,7 +5,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-
+import { Facebook, Instagram, Link, Twitter } from "lucide-react";
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
@@ -17,7 +17,14 @@ export default function ContactPage() {
     travelDate: "",
     message: "",
   });
-
+  const socialMediaIcons = [
+    {
+      Icon: <Facebook />,
+      Link: "https://www.facebook.com/profile.php?id=61585631580352",
+    },
+    { Icon: <Instagram />, Link: "https://www.instagram.com/roam.ripples/" },
+    { Icon: <Twitter />, Link: "https://x.com/RoamRipples" },
+  ];
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<
     "idle" | "success" | "error"
@@ -133,7 +140,7 @@ export default function ContactPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-2">Call Us</h3>
               <p className="text-gray-600 mb-2">Monday to Sunday, 24 X 7</p>
               <a
-                href="tel:+1234567890"
+                href="tel:+91 8750733112"
                 className="text-teal-600 font-medium hover:text-teal-700"
               >
                 +91 8750733112
@@ -199,28 +206,17 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-white rounded-2xl p-6 shadow-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-4">
-                Follow Us
-              </h3>
+              <h3 className="text-lg font-bold mb-4">Follow Us</h3>
               <div className="flex gap-3">
-                {["facebook", "twitter", "instagram", "linkedin"].map(
-                  (social) => (
-                    <a
-                      key={social}
-                      href={`#${social}`}
-                      className="w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center hover:bg-teal-600 hover:text-white transition-colors"
-                    >
-                      <span className="sr-only">{social}</span>
-                      <svg
-                        className="w-5 h-5"
-                        fill="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
-                      </svg>
-                    </a>
-                  )
-                )}
+                {socialMediaIcons.map((social) => (
+                  <Link
+                    key={social.Link}
+                    href={social.Link}
+                    className="w-10 h-10 bg-[#009689] rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors cursor-pointer"
+                  >
+                    <span className="text-xs">{social.Icon}</span>
+                  </Link>
+                ))}
               </div>
             </div>
           </motion.div>
