@@ -114,6 +114,7 @@ export function Footer() {
               <Link
                 href="https://www.facebook.com/profile.php?id=61585631580352"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors"
+                target="_blank"
               >
                 <span className="sr-only">Facebook</span>
                 <Facebook />
@@ -121,12 +122,14 @@ export function Footer() {
               <Link
                 href="https://www.instagram.com/roam.ripples/"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors"
+                target="_blank"
               >
                 <span className="sr-only">Instagram</span> <Instagram />
               </Link>
               <Link
                 href="https://x.com/RoamRipples"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors"
+                target="_blank"
               >
                 <span className="sr-only">Twitter</span>
                 <Twitter />

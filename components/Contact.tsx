@@ -5,7 +5,8 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Facebook, Instagram, Link, Twitter } from "lucide-react";
+import { Facebook, Instagram, Twitter } from "lucide-react";
+import Link from "next/link";
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
@@ -212,9 +213,10 @@ export default function ContactPage() {
                   <Link
                     key={social.Link}
                     href={social.Link}
+                    target="_blank"
                     className="w-10 h-10 bg-[#009689] rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors cursor-pointer"
                   >
-                    <span className="text-xs">{social.Icon}</span>
+                    <span className="text-xs text-white">{social.Icon}</span>
                   </Link>
                 ))}
               </div>
