@@ -100,7 +100,14 @@ export function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li>Email: roamripples@gmail.com</li>
               <li>Phone: +91 8750733112</li>
-              <li>Address: 123 Travel Street, Bhagalpur</li>
+              <li>
+                Address: 84/54, Moo-5, Paradise Hill Village 1 Soi Khao Noi,Bang
+                Lamung District, Chon Buri 20150.
+              </li>
+              <li>
+                Address: Meydan Grandstand, 6th floor, Meydan Road, Nad AI
+                Shedba , Dubai, U.A.E
+              </li>
             </ul>
 
             <div className="flex gap-4 mt-6">

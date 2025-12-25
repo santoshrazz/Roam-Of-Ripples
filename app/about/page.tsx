@@ -26,7 +26,7 @@ export async function generateMetadata() {
       siteName: "Santosh Kumar",
       images: [
         {
-          url: "https://roamripples.com/logo.jpg",
+          url: "https://roamripples.com/ror.png",
           width: 800,
           height: 600,
           alt: `RoamRipples`,
@@ -41,7 +41,7 @@ export async function generateMetadata() {
       description:
         "We are a B2B travel agency built for organizations that need reliability, scale, and precision—not guesswork. Our role is simple: we handle the complexity of travel so your business can focus on what actually matters.From corporate travel management to customized itineraries, negotiated rates, and 24/7 operational support, we act as an extension of your team. We combine industry expertise, strong supplier relationships, and efficient systems to deliver travel solutions that are cost-effective, compliant, and frictionless.Whether you’re managing frequent business travel, large groups, or specialized requirements, we bring clarity to logistics,transparency to pricing, and consistency to service. No fluff, no surprises—just travel that works as hard as your business does..",
       creator: `Santosh Kumar`,
-      images: [`https://roamripples.com/logo.jpg`],
+      images: [`https://roamripples.com/ror.png`],
     },
     robots: {
       index: true,

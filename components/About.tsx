@@ -78,7 +78,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              About <span className="text-teal-600">TravelTours</span>
+              About <span className="text-teal-600">RoamRipples</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Your trusted travel companion for over two decades, creating
@@ -129,7 +129,7 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                At TravelTours, we believe that travel is more than just
+                At RoamRipples, we believe that travel is more than just
                 visiting new places—it's about creating lifelong memories,
                 discovering diverse cultures, and broadening perspectives. Our
                 mission is to make exceptional travel experiences accessible to
@@ -230,7 +230,7 @@ export default function AboutPage() {
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <p className="leading-relaxed mb-4">
-                Founded in 2005, TravelTours began with a simple vision: to make
+                Founded in 2023, RoamRipples began with a simple vision: to make
                 world-class travel experiences accessible to everyone. What
                 started as a small team of passionate travel enthusiasts has
                 grown into a leading travel agency serving thousands of happy

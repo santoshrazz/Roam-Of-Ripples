@@ -1,6 +1,7 @@
 import type React from "react";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "RoamRipples - Discover Amazing Destinations",
@@ -10,19 +11,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "ror.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "ror.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "ror.png",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/ror.png",
   },
 };
 
@@ -39,6 +40,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SiteNavigationElement",
+              name: ["Tours", "About", "Contact"],
+              url: [
+                "https://roamripples.com/tours",
+                "https://roamripples.com/about",
+                "https://roamripples.com/contact",
+              ],
+            }),
+          }}
+        />
+      </Head>
       <body className={`font-sans antialiased`}>{children}</body>
     </html>
   );
