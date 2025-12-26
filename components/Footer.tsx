@@ -35,24 +35,36 @@ export function Footer() {
             <h4 className="font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="#" className="hover:text-teal-400 transition-colors">
+                <Link
+                  href="/about"
+                  className="hover:text-teal-400 transition-colors"
+                >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-teal-400 transition-colors">
+                <Link
+                  href="/tours"
+                  className="hover:text-teal-400 transition-colors"
+                >
                   Destinations
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-teal-400 transition-colors">
+                <Link
+                  href="/tours"
+                  className="hover:text-teal-400 transition-colors"
+                >
                   Tours
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-teal-400 transition-colors">
+                <Link
+                  href="/contact"
+                  className="hover:text-teal-400 transition-colors"
+                >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </motion.div>
@@ -101,11 +113,11 @@ export function Footer() {
               <li>Email: roamripples@gmail.com</li>
               <li>Phone: +91 8750733112</li>
               <li>
-                Address: 84/54, Moo-5, Paradise Hill Village 1 Soi Khao Noi,Bang
-                Lamung District, Chon Buri 20150.
+                Singapore Address: 84/54, Moo-5, Paradise Hill Village 1 Soi
+                Khao Noi,Nongpure,Dist,,Bang Lamung District, Chon Buri 20150.
               </li>
               <li>
-                Address: Meydan Grandstand, 6th floor, Meydan Road, Nad AI
+                Dubai Address: Meydan Grandstand, 6th floor, Meydan Road, Nad AI
                 Shedba , Dubai, U.A.E
               </li>
             </ul>

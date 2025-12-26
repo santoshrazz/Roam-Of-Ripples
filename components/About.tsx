@@ -230,7 +230,7 @@ export default function AboutPage() {
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <p className="leading-relaxed mb-4">
-                Founded in 2023, RoamRipples began with a simple vision: to make
+                Founded in 2019, RoamRipples began with a simple vision: to make
                 world-class travel experiences accessible to everyone. What
                 started as a small team of passionate travel enthusiasts has
                 grown into a leading travel agency serving thousands of happy
