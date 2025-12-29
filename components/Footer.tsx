@@ -113,11 +113,12 @@ export function Footer() {
               <li>Email: roamripples@gmail.com</li>
               <li>Phone: +91 8750733112</li>
               <li>
-                Singapore Address: 84/54, Moo-5, Paradise Hill Village 1 Soi
-                Khao Noi,Nongpure,Dist,,Bang Lamung District, Chon Buri 20150.
+                Thailand Office : 84/54, Moo-5, Paradise Hill Village 1 Soi Khao
+                Noi,Nongpure,Dist,Pattaya City,Bang Lamung District, Chon Buri
+                20150.
               </li>
               <li>
-                Dubai Address: Meydan Grandstand, 6th floor, Meydan Road, Nad AI
+                Dubai Office : Meydan Grandstand, 6th floor, Meydan Road, Nad AI
                 Shedba , Dubai, U.A.E
               </li>
             </ul>

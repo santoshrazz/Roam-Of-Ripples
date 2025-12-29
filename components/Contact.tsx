@@ -199,10 +199,19 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">
-                Visit Office
+                Thailand Office
               </h3>
               <p className="text-gray-600">
-                123 Travel Street, Tourism Bhagalpur
+                84/54, Moo-5, Paradise Hill Village 1 Soi Khao
+                Noi,Nongpure,Dist,Pattaya City,Bang Lamung District, Chon Buri
+                20150.
+              </p>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">
+                Dubai Office
+              </h3>
+              <p className="text-gray-600">
+                Meydan Grandstand, 6th floor, Meydan Road, Nad AI Shedba ,
+                Dubai, U.A.E
               </p>
             </div>
 
