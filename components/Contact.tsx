@@ -49,7 +49,7 @@ export default function ContactPage() {
     // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 2000));
 
-    console.log("[v0] Form submitted:", formData);
+    console.log("Form submitted:", formData);
     setSubmitStatus("success");
     setIsSubmitting(false);
 
@@ -212,6 +212,12 @@ export default function ContactPage() {
               <p className="text-gray-600">
                 Meydan Grandstand, 6th floor, Meydan Road, Nad AI Shedba ,
                 Dubai, U.A.E
+              </p>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">
+                Indian Office
+              </h3>
+              <p className="text-gray-600">
+                58, sabujayan awashan, Kabardanga mor, Kolkata - 700104
               </p>
             </div>
 

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,10 +49,11 @@ export function Header() {
             className="flex items-center cursor-pointer"
             onClick={() => router.push("/")}
           >
-            <div className="text-2xl md:text-3xl font-bold">
+            {/* <div className="text-2xl md:text-3xl font-bold">
               <span className="text-teal-600">Roam</span>
               <span className="text-gray-900">Ripples</span>
-            </div>
+            </div> */}
+            <Image src={"/new_logo.png"} width={100} height={100} alt="Logo" />
           </motion.div>
 
           {/* Desktop Navigation */}

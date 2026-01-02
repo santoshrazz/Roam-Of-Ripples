@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export function Footer() {
@@ -16,8 +17,14 @@ export function Footer() {
             viewport={{ once: true }}
           >
             <div className="text-2xl font-bold mb-4">
-              <span className="text-teal-400">Roam</span>
-              <span className="text-white">Ripples</span>
+              {/* <span className="text-teal-400">Roam</span>
+              <span className="text-white">Ripples</span> */}
+              <Image
+                src={"/new_logo.png"}
+                width={100}
+                height={100}
+                alt="Logo"
+              />
             </div>
             <p className="text-gray-400 leading-relaxed">
               Your trusted travel partner for unforgettable experiences around
@@ -120,6 +127,10 @@ export function Footer() {
               <li>
                 Dubai Office : Meydan Grandstand, 6th floor, Meydan Road, Nad AI
                 Shedba , Dubai, U.A.E
+              </li>
+              <li>
+                Indian Office : 58, sabujayan awashan, Kabardanga mor, Kolkata -
+                700104
               </li>
             </ul>
 
