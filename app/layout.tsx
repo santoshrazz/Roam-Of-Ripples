@@ -2,6 +2,7 @@ import type React from "react";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Head from "next/head";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "RoamRipples - Discover Amazing Destinations",
@@ -56,6 +57,7 @@ export default function RootLayout({
         />
       </Head>
       <body className={`font-sans antialiased`}>{children}</body>
+      <GoogleAnalytics gaId={process.env.GOOGLE_TAG || ""} />
     </html>
   );
 }
