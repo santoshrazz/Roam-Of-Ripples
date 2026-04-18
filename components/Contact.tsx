@@ -172,7 +172,7 @@ export default function ContactPage() {
                 href="mailto:roamripples.com"
                 className="text-teal-600 font-medium hover:text-teal-700"
               >
-                roamripples.com
+                ops1roamripples@gmail.com
               </a>
             </div>
 
