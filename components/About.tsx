@@ -26,6 +26,11 @@ export default function AboutPage() {
     { number: "20+", label: "Years Experience" },
   ];
 
+  const team = [
+    { name: "Megha Ghosh", role: "Founder" },
+    { name: "Vikas Sharma", role: "Sales Head-India" },
+  ];
+
   const values = [
     {
       title: "Expert Guidance",
@@ -244,6 +249,52 @@ export default function AboutPage() {
               </p>
             </motion.div>
           </div>
+        </div>
+      </section>
+
+      {/* Team Section */}
+      <section className="py-20 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Meet the Team
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
+              The people behind RoamRipples, dedicated to making your travel
+              dreams a reality.
+            </p>
+          </motion.div>
+
+          <motion.div
+            variants={staggerContainer}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto"
+          >
+            {team.map((member) => (
+              <motion.div
+                key={member.name}
+                variants={fadeInUp}
+                whileHover={{ y: -8, transition: { duration: 0.3 } }}
+                className="p-8 rounded-2xl bg-white border-2 border-gray-100 hover:border-teal-200 hover:shadow-xl transition-all duration-300 text-center"
+              >
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-teal-100 flex items-center justify-center text-teal-600 text-2xl font-bold">
+                  {member.name.charAt(0)}
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-1">
+                  {member.name}
+                </h3>
+                <p className="text-teal-600 font-medium">{member.role}</p>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
       </section>
 
